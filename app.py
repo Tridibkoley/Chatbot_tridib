@@ -5,7 +5,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 🔐 Hardcoded API Key (replace this!)
-GOOGLE_API_KEY = "AIzaSyDXbcstn5CucOgm4iKGsVbMGa6QWgvdcic"
+GOOGLE_API_KEY = "enter your api key"
 
 if not GOOGLE_API_KEY:
     st.error("GOOGLE_API_KEY is missing.")
